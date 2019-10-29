@@ -1,0 +1,103 @@
+[2.736s] DEBUG:colcon:Command line arguments: ['/usr/local/bin/colcon', 'build']
+[2.736s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths='.', build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='sequential', install_base='install', log_base='log', log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fad1f5d68>>, merge_install=False, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fad1f5d68>, verb_name='build', verb_parser=CustomArgumentParser(prog='/usr/local/bin/colcon build', usage=None, description='Build a set of packages.', formatter_class=<class 'colcon_core.command.CustomFormatter'>, conflict_handler='error', add_help=True))
+[3.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.173s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jetbot/simple-dino-app/robot_ws'
+[3.174s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetbot/simple-dino-app/robot_ws) by extensions ['ignore', 'ignore_ament_install']
+[3.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetbot/simple-dino-app/robot_ws) by extension 'ignore'
+[3.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetbot/simple-dino-app/robot_ws) by extension 'ignore_ament_install'
+[3.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetbot/simple-dino-app/robot_ws) by extensions ['ros']
+[3.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetbot/simple-dino-app/robot_ws) by extension 'ros'
+[3.273s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetbot/simple-dino-app/robot_ws) by extensions ['cmake', 'python']
+[3.274s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetbot/simple-dino-app/robot_ws) by extension 'cmake'
+[3.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetbot/simple-dino-app/robot_ws) by extension 'python'
+[3.275s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetbot/simple-dino-app/robot_ws) by extensions ['python_setup_py']
+[3.276s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetbot/simple-dino-app/robot_ws) by extension 'python_setup_py'
+[3.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetbot/simple-dino-app/robot_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[3.277s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetbot/simple-dino-app/robot_ws/build) by extension 'ignore'
+[3.278s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetbot/simple-dino-app/robot_ws/build) ignored
+[3.281s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetbot/simple-dino-app/robot_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[3.281s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetbot/simple-dino-app/robot_ws/install) by extension 'ignore'
+[3.282s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetbot/simple-dino-app/robot_ws/install) ignored
+[3.283s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetbot/simple-dino-app/robot_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[3.283s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetbot/simple-dino-app/robot_ws/log) by extension 'ignore'
+[3.284s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetbot/simple-dino-app/robot_ws/log) ignored
+[3.284s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetbot/simple-dino-app/robot_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[3.285s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetbot/simple-dino-app/robot_ws/src) by extension 'ignore'
+[3.286s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetbot/simple-dino-app/robot_ws/src) by extension 'ignore_ament_install'
+[3.287s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetbot/simple-dino-app/robot_ws/src) by extensions ['ros']
+[3.287s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetbot/simple-dino-app/robot_ws/src) by extension 'ros'
+[3.288s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetbot/simple-dino-app/robot_ws/src) by extensions ['cmake', 'python']
+[3.289s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetbot/simple-dino-app/robot_ws/src) by extension 'cmake'
+[3.290s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetbot/simple-dino-app/robot_ws/src) by extension 'python'
+[3.290s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetbot/simple-dino-app/robot_ws/src) by extensions ['python_setup_py']
+[3.291s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetbot/simple-dino-app/robot_ws/src) by extension 'python_setup_py'
+[3.292s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetbot/simple-dino-app/robot_ws/src/dinoapp) by extensions ['ignore', 'ignore_ament_install']
+[3.293s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetbot/simple-dino-app/robot_ws/src/dinoapp) by extension 'ignore'
+[3.294s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetbot/simple-dino-app/robot_ws/src/dinoapp) by extension 'ignore_ament_install'
+[3.294s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetbot/simple-dino-app/robot_ws/src/dinoapp) by extensions ['ros']
+[3.295s] Level 1:colcon.colcon_core.package_identification:_identify(/home/jetbot/simple-dino-app/robot_ws/src/dinoapp) by extension 'ros'
+[3.312s] DEBUG:colcon.colcon_core.package_identification:Package '/home/jetbot/simple-dino-app/robot_ws/src/dinoapp' with type 'ros.catkin' and name 'dinoapp'
+[3.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.442s] Level 5:colcon.colcon_core.verb:set package 'dinoapp' build argument 'cmake_args' from command line to 'None'
+[3.442s] Level 5:colcon.colcon_core.verb:set package 'dinoapp' build argument 'cmake_target' from command line to 'None'
+[3.443s] Level 5:colcon.colcon_core.verb:set package 'dinoapp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.443s] Level 5:colcon.colcon_core.verb:set package 'dinoapp' build argument 'cmake_clean_cache' from command line to 'False'
+[3.443s] Level 5:colcon.colcon_core.verb:set package 'dinoapp' build argument 'cmake_clean_first' from command line to 'False'
+[3.443s] Level 5:colcon.colcon_core.verb:set package 'dinoapp' build argument 'cmake_force_configure' from command line to 'False'
+[3.444s] Level 5:colcon.colcon_core.verb:set package 'dinoapp' build argument 'ament_cmake_args' from command line to 'None'
+[3.444s] Level 5:colcon.colcon_core.verb:set package 'dinoapp' build argument 'catkin_cmake_args' from command line to 'None'
+[3.444s] Level 5:colcon.colcon_core.verb:set package 'dinoapp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.445s] DEBUG:colcon.colcon_core.verb:Building package 'dinoapp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetbot/simple-dino-app/robot_ws/build/dinoapp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetbot/simple-dino-app/robot_ws/install/dinoapp', 'merge_install': False, 'path': '/home/jetbot/simple-dino-app/robot_ws/src/dinoapp', 'symlink_install': False, 'test_result_base': None}
+[3.495s] INFO:colcon.colcon_core.executor:Executing jobs using 'sequential' executor
+[3.497s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'dinoapp'
+[3.498s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/jetbot/simple-dino-app/robot_ws/src/dinoapp' with build type 'catkin'
+[3.499s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetbot/simple-dino-app/robot_ws/src/dinoapp'
+[3.557s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.559s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.617s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/melodic'
+[3.654s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetbot/simple-dino-app/robot_ws/build/dinoapp': /usr/bin/cmake --build /home/jetbot/simple-dino-app/robot_ws/build/dinoapp -- -j2 -l2
+[8.414s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetbot/simple-dino-app/robot_ws/build/dinoapp' returned '0': /usr/bin/cmake --build /home/jetbot/simple-dino-app/robot_ws/build/dinoapp -- -j2 -l2
+[8.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetbot/simple-dino-app/robot_ws/build/dinoapp': /usr/bin/cmake --build /home/jetbot/simple-dino-app/robot_ws/build/dinoapp --target tests -- -j2 -l2
+[8.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetbot/simple-dino-app/robot_ws/build/dinoapp' returned '0': /usr/bin/cmake --build /home/jetbot/simple-dino-app/robot_ws/build/dinoapp --target tests -- -j2 -l2
+[9.116s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetbot/simple-dino-app/robot_ws/build/dinoapp': /usr/bin/cmake --build /home/jetbot/simple-dino-app/robot_ws/build/dinoapp --target install -- -j2 -l2
+[9.750s] Level 1:colcon.colcon_core.shell:create_environment_hook('dinoapp', 'ros_package_path')
+[9.751s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetbot/simple-dino-app/robot_ws/build/dinoapp' returned '0': /usr/bin/cmake --build /home/jetbot/simple-dino-app/robot_ws/build/dinoapp --target install -- -j2 -l2
+[9.796s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetbot/simple-dino-app/robot_ws/install/dinoapp/share/dinoapp/hook/ros_package_path.dsv'
+[9.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/simple-dino-app/robot_ws/install/dinoapp/share/dinoapp/hook/ros_package_path.sh'
+[9.806s] Level 1:colcon.colcon_ros.task.catkin:checking '/home/jetbot/simple-dino-app/robot_ws/install/dinoapp/lib/python2.7/dist-packages'
+[9.806s] Level 1:colcon.colcon_core.shell:create_environment_hook('dinoapp', 'python2path')
+[9.845s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetbot/simple-dino-app/robot_ws/install/dinoapp/share/dinoapp/hook/python2path.dsv'
+[9.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/simple-dino-app/robot_ws/install/dinoapp/share/dinoapp/hook/python2path.sh'
+[9.851s] Level 1:colcon.colcon_ros.task.catkin:checking '/home/jetbot/simple-dino-app/robot_ws/install/dinoapp/lib/python2.7/site-packages'
+[9.851s] Level 1:colcon.colcon_core.shell:create_environment_hook('dinoapp', 'pkg_config_path')
+[9.893s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetbot/simple-dino-app/robot_ws/install/dinoapp/share/dinoapp/hook/pkg_config_path.dsv'
+[9.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/simple-dino-app/robot_ws/install/dinoapp/share/dinoapp/hook/pkg_config_path.sh'
+[9.911s] Level 1:colcon.colcon_core.shell:create_environment_hook('dinoapp', 'pkg_config_path_multiarch')
+[9.950s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetbot/simple-dino-app/robot_ws/install/dinoapp/share/dinoapp/hook/pkg_config_path_multiarch.dsv'
+[9.953s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/simple-dino-app/robot_ws/install/dinoapp/share/dinoapp/hook/pkg_config_path_multiarch.sh'
+[9.993s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dinoapp)
+[10.100s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/simple-dino-app/robot_ws/install/dinoapp' for CMake module files
+[10.104s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/simple-dino-app/robot_ws/install/dinoapp' for CMake config files
+[10.106s] Level 1:colcon.colcon_core.shell:create_environment_hook('dinoapp', 'cmake_prefix_path')
+[10.142s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetbot/simple-dino-app/robot_ws/install/dinoapp/share/dinoapp/hook/cmake_prefix_path.dsv'
+[10.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/simple-dino-app/robot_ws/install/dinoapp/share/dinoapp/hook/cmake_prefix_path.sh'
+[10.151s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/simple-dino-app/robot_ws/install/dinoapp/lib'
+[10.152s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/simple-dino-app/robot_ws/install/dinoapp/bin'
+[10.152s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/simple-dino-app/robot_ws/install/dinoapp/lib/pkgconfig/dinoapp.pc'
+[10.153s] Level 1:colcon.colcon_core.shell:create_environment_hook('dinoapp', 'pkg_config')
+[10.195s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetbot/simple-dino-app/robot_ws/install/dinoapp/share/dinoapp/hook/pkg_config.dsv'
+[10.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetbot/simple-dino-app/robot_ws/install/dinoapp/share/dinoapp/hook/pkg_config.sh'
+[10.205s] Level 1:colcon.colcon_core.environment:checking '/home/jetbot/simple-dino-app/robot_ws/install/dinoapp/lib/python3.6/site-packages'
+[10.248s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetbot/simple-dino-app/robot_ws/install/dinoapp/share/dinoapp/package.dsv'
+[10.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetbot/simple-dino-app/robot_ws/install/dinoapp/share/dinoapp/package.sh'
+[10.269s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetbot/simple-dino-app/robot_ws/install/dinoapp/share/colcon-core/packages/dinoapp)
+[10.272s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'dinoapp' finished with '0'
+[10.272s] DEBUG:colcon.colcon_core.executor.sequential:closing loop
+[10.276s] DEBUG:colcon.colcon_core.executor.sequential:loop closed
+[10.277s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.277s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.318s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetbot/simple-dino-app/robot_ws/install/local_setup.sh'
+[10.323s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetbot/simple-dino-app/robot_ws/install/_local_setup_util_sh.py'
+[10.335s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetbot/simple-dino-app/robot_ws/install/setup.sh'

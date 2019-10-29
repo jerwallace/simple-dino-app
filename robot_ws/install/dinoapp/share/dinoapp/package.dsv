@@ -1,0 +1,12 @@
+source;share/dinoapp/hook/cmake_prefix_path.dsv
+source;share/dinoapp/hook/cmake_prefix_path.sh
+source;share/dinoapp/hook/pkg_config.dsv
+source;share/dinoapp/hook/pkg_config.sh
+source;share/dinoapp/hook/ros_package_path.dsv
+source;share/dinoapp/hook/ros_package_path.sh
+source;share/dinoapp/hook/python2path.dsv
+source;share/dinoapp/hook/python2path.sh
+source;share/dinoapp/hook/pkg_config_path.dsv
+source;share/dinoapp/hook/pkg_config_path.sh
+source;share/dinoapp/hook/pkg_config_path_multiarch.dsv
+source;share/dinoapp/hook/pkg_config_path_multiarch.sh

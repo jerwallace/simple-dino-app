@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/jetbot/simple-dino-app/robot_ws/build/dinoapp/devel/setup.sh
