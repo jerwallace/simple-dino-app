@@ -2,17 +2,13 @@
 # Set minimum required version of cmake, project name and compile options
 ################################################################################
 cmake_minimum_required(VERSION 2.8.3)
-project(hello_world_robot)
+project(dinoapp)
 
 ################################################################################
 # Find catkin packages and libraries for catkin and system dependencies
 ################################################################################
 find_package(catkin REQUIRED COMPONENTS
   rospy
-  std_msgs
-  sensor_msgs
-  geometry_msgs
-  nav_msgs
 )
 
 ################################################################################
@@ -34,11 +30,6 @@ catkin_python_setup()
 catkin_package(
   CATKIN_DEPENDS
     rospy
-    std_msgs
-    sensor_msgs
-    geometry_msgs
-    nav_msgs
-    message_runtime
 )
 
 ################################################################################
@@ -53,7 +44,7 @@ include_directories(
 # Install
 ################################################################################
 catkin_install_python(PROGRAMS 
-  nodes/rotate
+  nodes/run
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 

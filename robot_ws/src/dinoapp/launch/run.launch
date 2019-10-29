@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="dinoapp" type="run" name="run"></node>
+</launch>
