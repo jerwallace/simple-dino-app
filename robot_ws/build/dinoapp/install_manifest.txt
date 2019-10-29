@@ -1,6 +1,0 @@
-/home/jetbot/simple-dino-app/robot_ws/install/dinoapp/lib/pkgconfig/dinoapp.pc
-/home/jetbot/simple-dino-app/robot_ws/install/dinoapp/share/dinoapp/cmake/dinoappConfig.cmake
-/home/jetbot/simple-dino-app/robot_ws/install/dinoapp/share/dinoapp/cmake/dinoappConfig-version.cmake
-/home/jetbot/simple-dino-app/robot_ws/install/dinoapp/share/dinoapp/package.xml
-/home/jetbot/simple-dino-app/robot_ws/install/dinoapp/lib/dinoapp/run
-/home/jetbot/simple-dino-app/robot_ws/install/dinoapp/share/dinoapp/launch/run.launch

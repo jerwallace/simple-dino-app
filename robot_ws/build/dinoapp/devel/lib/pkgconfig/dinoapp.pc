@@ -1,8 +1,0 @@
-prefix=/home/jetbot/simple-dino-app/robot_ws/build/dinoapp/devel
-
-Name: dinoapp
-Description: Description of dinoapp
-Version: 1.2.0
-Cflags: 
-Libs: -L/home/jetbot/simple-dino-app/robot_ws/build/dinoapp/devel/lib 
-Requires: rospy
