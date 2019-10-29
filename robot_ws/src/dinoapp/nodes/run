@@ -13,11 +13,11 @@ from jetbot import Camera
 
 model_roadfollow = torchvision.models.resnet18(pretrained=False)
 model_roadfollow.fc = torch.nn.Linear(512, 2)
-model_roadfollow.load_state_dict(torch.load('~/best_steering_model_xy.pth'))
+model_roadfollow.load_state_dict(torch.load('/tmp/best_steering_model_xy.pth'))
 
 model_dinodet = torchvision.models.resnet18(pretrained=False)
 model_dinodet.fc = torch.nn.Linear(512, 6)
-model_dinodet.load_state_dict(torch.load('~/best_dinodet_model_xy.pth'))
+model_dinodet.load_state_dict(torch.load('/tmp/best_dinodet_model_xy.pth'))
 
 device = torch.device('cuda')
 
