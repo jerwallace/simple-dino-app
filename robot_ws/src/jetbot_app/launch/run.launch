@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="jetbot_app" type="run_dino.sh" name="run" output="screen" />
+</launch>
