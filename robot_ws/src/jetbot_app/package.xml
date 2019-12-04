@@ -9,5 +9,13 @@
   <author email="ros-contributions@amazon.com">AWS RoboMaker</author>
   <maintainer email="ros-contributions@amazon.com">AWS RoboMaker</maintainer>
   <buildtool_depend>catkin</buildtool_depend>
+  <depend>roscpp</depend>
   <depend>rospy</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>aws-iot-sdk-python</depend>
+  <depend>adafruit-motorhat-pip</depend>
+  <depend>adafruit-ssd1306-pip</depend>
+  <depend>sparkfun-qwiic-scmd-pip</depend>
+  <depend>smbus</depend>
 </package>
