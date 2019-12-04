@@ -5,6 +5,7 @@ sudo apt-get update -y
 sudo apt-get install ros-melodic-ros-base -y
 sudo rosdep init
 rosdep update
+sudo sh -c 'echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc'
 sudo su ggc_user --shell /bin/bash
 sudo sh -c 'echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc'
 exit
