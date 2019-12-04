@@ -44,7 +44,8 @@ include_directories(
 # Install
 ################################################################################
 catkin_install_python(PROGRAMS 
-  nodes/run
+  nodes/run.py
+  scripts/run_dino.sh
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
